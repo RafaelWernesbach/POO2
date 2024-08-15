@@ -57,6 +57,9 @@ namespace Aula4
             Console.WriteLine("C = " + (100 * C) / idades.Count + "%");
             Console.WriteLine("D = " + (100 * D) / idades.Count + "%");
             Console.WriteLine("E = " + (100 * E) / idades.Count + "%");
+            Console.WriteLine("Pressione qualquer tecla para sair");
+            Console.ReadKey();
+
         }
     }
 }
